@@ -60,196 +60,162 @@ While Unix and Linux share some similarities in terms of their design and functi
 
 <img src="media/Linux Distribution.jpg"> 
 
- 
-
-Linux Architecture and Components 
-
- 
+## Linux Architecture and Components 
 
 The Linux architecture is highly modular and configurable, offering a high degree of customization and flexibility to users and developers. It is a layered structure comprising several components, including the kernel, system libraries, system calls, shell, applications, graphical user interface, and device drivers. 
 
- 
+## Linux Installation and Setup: 
 
-Linux Installation and Setup: Practical 
+*Practical*
 
-CLI Vs. GUI 
-
- 
+## CLI Vs. GUI 
 
 GUI lets a user interact with the device/system with the help of graphical elements, like windows, menus, icons, etc. The CLI, on the other hand, lets a user interact with their device/system with the help of various commands. Some OS provide their users with only CLI, while some offer both CLI and GUI. 
 
- 
-
-UBUNTU 
-
- 
+## UBUNTU 
 
 Ubuntu is a Linux distribution based on Debian and composed mostly of free and open-source software. Ubuntu is officially released in multiple editions: Desktop, Server, and Core for Internet of things devices and robots. 
 
- 
+## UBUNTU Interface
 
-Ubuntu Interface: Practical 
+*Practical*
 
-Ubuntu Home, Settings, Appearance and other basic things: Practical 
+## Ubuntu Home, Settings, Appearance and other basic things: 
 
- 
+*Practical*
 
- 
+## DOS / UBUNTU Command Line (Notes) 
 
-DOS / UBUNTU Command Line (Notes) 
+* Open the Terminal: Ctrl + Alt + T
 
- 
+**Directory:** First see the shell 
 
-Open the Terminal: Ctrl + Alt + T  
+    pwd: Present Working Directory 
 
- 
+    ls: For List that means to watch the files and folders under the Folder 
 
-Directory: First see the shell 
+    ls -a: To watch also the hidden files and folders 
 
-pwd: Present Working Directory 
+    ls -l: To watch all the files and folders Info under the folder 
 
-ls: For List that means to watch the files and folders under the Folder 
+    cd: Change Directory; Changing the Folder Path (cd_Folder) 
 
-ls -a: To watch also the hidden files and folders 
+    cd_Folder/Folder/Folder: If you know the folder path then you can go like this, Pressing Tab key will help you. 
 
-ls -l: To watch all the files and folders Info under the folder 
+    cd /Folder: Going back to a specific folder 
 
-cd: Change Directory; Changing the Folder Path (cd_Folder) 
+    cd .. : To go back one folder. 
 
-cd_Folder/Folder/Folder: If you know the folder path then you can go like this, Pressing Tab key will help you. 
+    mkdir_Folder: Make Directory; Creating a Folder. 
 
-cd /Folder: Going back to a specific folder 
+    Touch_file.txt: To create a text file titled file. 
 
-cd .. : To go back one folder. 
+    nano_file.txt: To open the text editor file and you can write there as well and the next thing you can do there is saving the file pressing Ctrl + Follow Instructions. 
 
-mkdir_Folder: Make Directory; Creating a Folder. 
+    cat file.txt : To show the saved file. 
 
-Touch_file.txt: To create a text file titled file. 
+    vi file.txt : To open the saved file in different text editor. 
 
-nano_file.txt: To open the text editor file and you can write there as well and the next thing you can do there is saving the file pressing Ctrl + Follow Instructions. 
+    rm_File name : To remove or delete any file and folder. It is only possible when you are a root user. 
 
-cat file.txt : To show the saved file. 
+    rm -rf * : To remove every file and folder under that folder. 
 
-vi file.txt : To open the saved file in different text editor. 
+    rmdir_Folder: To remove or delete the folder. 
 
-rm_File name : To remove or delete any file and folder. It is only possible when you are a root user. 
+    mv_File_Folder : To move any file to another folder. For instance, mv Rahim,txt Fourth; mv Rahim.txt ../File name, to move any folder back. 
 
-rm -rf * : To remove every file and folder under that folder. 
+    cp for Copy: Everything else is same. 
 
-rmdir_Folder: To remove or delete the folder. 
+    cd - : To see the path of the folder. 
 
-mv_File_Folder : To move any file to another folder. For instance, mv Rahim,txt Fourth; mv Rahim.txt ../File name, to move any folder back. 
+    exit : To exit from it. 
 
-cp for Copy: Everything else is same. 
+    Ctrl + l : To go down. 
 
-cd - : To see the path of the folder. 
+    clear : To clear everything. 
 
-exit : To exit from it. 
+    del: To delete file or folder.  
 
-Ctrl + l : To go down. 
+    ‘Up Arrow Key’ : To see the previous commands 
 
-clear : To clear everything. 
+    history: To see the whole history of using commands 
 
-del: To delete file or folder.  
+    tree: to watch the whole folders and files. If command not found or installed in the system then install -  
 
-‘Up Arrow Key’ : To see the previous commands 
+    sudo snap install tree: version 1.8.0+pkg 
 
-history: To see the whole history of using commands 
-
-tree: to watch the whole folders and files. If command not found or installed in the system then install -  
-
-sudo snap install tree: version 1.8.0+pkg 
-
-sudo apt install tree: version 2.0.2-1 
+    sudo apt install tree: version 2.0.2-1 
 
  
-
  
+**Kernal** 
 
-Kernal 
+    uname: To see the Kernal Name. 
 
-uname: To see the Kernal Name. 
+    uname -r: To see the Kernal Type and Version 
 
-uname -r: To see the Kernal Type and Version 
+    uname -a: To see the whole configuration of the system. 
 
-uname -a: To see the whole configuration of the system. 
+    whoami: To see the Owner Name 
 
-whoami: To see the Owner Name 
 
- 
+**Sudo:** Super User Do – Working with sudo requires the administrator or root user’s permission. 
 
- 
+    sudo su : Switch User, to see the user name. To see the root user name. 
 
-Sudo: Super User Do – Working with sudo requires the administrator or root user’s permission. 
+    sudo apt install ___ ; Here apt meaning the package manager. 
 
-sudo su : Switch User, to see the user name. To see the root user name. 
+    sudo snap install ___; Here snap meaning the package manager. 
 
-sudo apt install ___ ; Here apt meaning the package manager. 
+    Sudo apt  Meaning? 
 
-sudo snap install ___; Here snap meaning the package manager. 
+    Sudo apt update : To update the Package Manager(apt) 
 
-Sudo apt  Meaning? 
+    
 
-Sudo apt update : To update the Package Manager(apt) 
 
- 
+**Installing the compilers for programmers:**
 
-  
+    SUDO Class 
 
-  
+    sudo apt install update 
 
-  
+    sudo apt update 
 
-  
+    sudo apt install gcc: To install gcc compiler mainly for C, C ++ programming. 
 
-  
+    gcc --version : To see the version of the gcc (GNU Compiler Collection) 
 
-  
+    sudo apt install python3.11: To install Python compiler 
 
- 
+    python3 : To start the IDE in Terminal. You can code in Terminal!  
 
-Installing the compilers for programmers: 
+    Python3_file name.py: To run the program using the terminal in VS Code. 
 
-SUDO Class 
+    python3  --version: To check the python version installed in your computer. 
 
-sudo apt install update 
+    sudo apt install jdk: jdk stands for Java Development kit. 
 
-sudo apt update 
+    java --version: To check the Java version. 
 
-sudo apt install gcc: To install gcc compiler mainly for C, C ++ programming. 
+    sudo apt install default-jdk: To install JDK 
 
-gcc --version : To see the version of the gcc (GNU Compiler Collection) 
+    sudo apt install nodejs : JavaScript 
 
-sudo apt install python3.11: To install Python compiler 
+    nodejs --version : JavaScript 
 
-python3 : To start the IDE in Terminal. You can code in Terminal!  
+    sudo apt install git : To install git 
 
-Python3_file name.py: To run the program using the terminal in VS Code. 
+    git –version: To check git version. 
 
-python3  --version: To check the python version installed in your computer. 
+**Others**
 
-sudo apt install jdk: jdk stands for Java Development kit. 
+    cal : To open the Calender ; sudo apt install ncal 
 
-java --version: To check the Java version. 
+    bc: for the calculator; 10+10 ; Ctrl + C to quit, Ctrl + Z to Exit 
 
-sudo apt install default-jdk: To install JDK 
+    curl google.com: To search anything; sudo snap install curl 
 
-sudo apt install nodejs : JavaScript 
+    ping google.com; To check the IP Address 
 
-nodejs --version : JavaScript 
-
-sudo apt install git : To install git 
-
-git –version: To check git version. 
-
-Others 
-
-cal : To open the Calender ; sudo apt install ncal 
-
-bc: for the calculator; 10+10 ; Ctrl + C to quit, Ctrl + Z to Exit 
-
-curl google.com: To search anything; sudo snap install curl 
-
-ping google.com; To check the IP Address 
-
-Ctrl + c : to quit 
+    Ctrl + c : to quit 

@@ -146,8 +146,69 @@ Ubuntu is a Linux distribution based on Debian and composed mostly of free and o
 
     sudo apt install tree: version 2.0.2-1 
 
- 
- 
+
+**‘grep’ command: similar with Ctrl+F**
+
+    grfep _string_file.txt : grep command syntax 
+
+    grep saky file.txt : searching for “saky” in the file.txt file 
+
+    grep –n file.txt: searching with the number of line. 
+
+**‘sort’ command: To sort the result either alphabatically or numerically. Files, files contents and directions can be sorted.**
+
+    sort_file.txt: The syntax 
+
+    sort saky.txt: to sort the saky.txt file 
+
+    sort saky.txt sany.txt:The contents of both saky.txt and sany.txt file. 
+
+    sort –r file.txt: Reverse order 
+
+    sort –n file.txt: Numerical order 
+
+**Working with tar files**
+
+    gzip file.txt : To compress file with .gz format 
+
+    gunzip file.txt : To decompress 
+
+    tar –cvf  
+
+**Environment Variables: Control the behavior of the software packages installed in Linux**
+
+    printenv : List of all environment variables. 
+
+    echo $HOME: Home directory of the user. 
+
+    echo $PATH: Directions in which the shell looks for commands. 
+
+    echo $HOSTNAME: Print the Hostname 
+
+    echo $USERNAME:  Print the Username 
+
+    echo $LANG: Print the language is being used. 
+
+    echo $BASH_VERSION: Print the version of this instance of bash 
+
+**Process: An instance of a programmed. There can be multiple processes started in the same time. There are two types of processes: Foreground processes and Background Processes.**
+
+    top 
+
+**Creating User:**
+
+    sudo useradd user-name : Adding a new user 
+
+    sudo passwd user-name : Setting a password for the user. 
+
+    sudo userdel user-name : Deleting a user. 
+
+    sudo groupadd group-name : Adding a group 
+
+    sudo groupdek group-name : Deleting a group 
+
+    sudo usermod –g group-name: Adding a user to a primary group. 
+    
 **Kernal** 
 
     uname: To see the Kernal Name. 
@@ -157,7 +218,6 @@ Ubuntu is a Linux distribution based on Debian and composed mostly of free and o
     uname -a: To see the whole configuration of the system. 
 
     whoami: To see the Owner Name 
-
 
 **Sudo:** Super User Do – Working with sudo requires the administrator or root user’s permission. 
 
@@ -170,9 +230,6 @@ Ubuntu is a Linux distribution based on Debian and composed mostly of free and o
     Sudo apt  Meaning? 
 
     Sudo apt update : To update the Package Manager(apt) 
-
-    
-
 
 **Installing the compilers for programmers:**
 
@@ -208,6 +265,17 @@ Ubuntu is a Linux distribution based on Debian and composed mostly of free and o
 
     git –version: To check git version. 
 
+
+**Keyboard Shortcuts**
+
+    Ctrl + c: To kill the process running in the terminal. 
+
+    Ctrl + w: To cut one word. 
+
+    Ctrl + u: To cut one line. 
+
+    Ctrl + y: To paste from the clipboard. 
+
 **Others**
 
     cal : To open the Calender ; sudo apt install ncal 
@@ -219,3 +287,42 @@ Ubuntu is a Linux distribution based on Debian and composed mostly of free and o
     ping google.com; To check the IP Address 
 
     Ctrl + c : to quit 
+    chown username filename: To change the owner of the file 
+
+    free: to see the space of the RAM 
+
+    free –k : in kilobyte 
+
+    free –m: in megabytes. 
+
+    man: To open the help page 
+
+    man man: for the whole help guideline. 
+
+    man ls: for list commands 
+
+    find: To find any file from the computer. (find Desktop) 
+
+    sensors: To see the CPU temperature. If not installed: 
+
+    sudo apt install lm-sensors 
+
+    locate_file name: Locate files and directories 
+
+    sudo apt install plocate 
+
+    apt list: To see all the installed files with apt 
+
+    id: Details about the active user. 
+
+    last: Last system logins. 
+
+    who: Who logged in the system. 
+
+    shutdown now: To shut down immediately. 
+
+    shutdown [hh:mm]: To shut down at a specific time. 
+
+    Lscpu: for CPU info 
+
+    Google-chrome: To open chrome 

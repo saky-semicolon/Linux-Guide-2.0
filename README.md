@@ -326,3 +326,24 @@ Ubuntu is a Linux distribution based on Debian and composed mostly of free and o
     Lscpu: for CPU info 
 
     Google-chrome: To open chrome 
+
+
+
+## Tutorial Videos
+
+
+
+
+
+
+
+YOUTUBE
+
+
+
+
+
+
+
+
+
